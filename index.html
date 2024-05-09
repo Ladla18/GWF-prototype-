@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GWF</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <script src="js/bootstrap.bundle.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+  .featuresCard {
+      min-height: 15rem;
+    }
+
+    .featureslogo {
+      height: 90px;
+      width: 90px;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      border-radius: 50px;
+      box-shadow: 2px 5px 10px black;
+      z-index: 999;
+
+      top: -40px;
+    }
+
+    .featureIcon {
+      margin-left: 25px;
+      padding-top: 25px;
+    }
+
+    /* Footer */
+    /* Custom styles */
+    body {
+      font-family: 'Montserrat', sans-serif;
+      /* Use a suitable font family */
+      color: #333;
+      /* Adjust text color */
+    }
+
+    .footer {
+      padding: 20px;
+      background-color: #ffc107;
+      /* Yellow background for footer */
+      color: #333;
+      /* Text color for footer */
+    }
+
+    .footer p {
+      margin-bottom: 10px;
+    }
+
+    .footer a {
+      color: #333;
+      /* Adjust link color */
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+      /* Add underline on hover */
+    }
+  </style>
+
+<body>
+  <div class="container-fluid">
+    <!----------------------------------------- header---------------------- -->
+    <div class="row bg-danger header">
+      <div class="col-sm-4 p-2  mx-5 ">
+        <i class="fa-solid fa-envelope fs-5" style="color:white;"></i>
+        <span style="display: inline-block;margin-left: 5px;color: white;font-size: 17px;">abc123@gmail.com</span>
+      </div>
+      <div class="col-sm-3 p-2">
+        <i class="fa-solid fa-phone" style="color:white;"></i>
+        <span style="display: inline-block;margin-left: 5px;color:white;font-size: 17px;">+919877654365</span>
+      </div>
+      <div class="col-sm-3">
+        <span style="display:inline-block;float: right;" class="pt-2 pb-2 me-2 fs-5"><a href="#"
+            style="text-decoration: none;color:white;"><i class="fa-brands fa-twitter"></i></a></span>
+        <span style="display:inline-block;float: right;" class="pt-2 pb-2 me-2 fs-5"><a href="#"
+            style="text-decoration: none;color:white;"><i class="fa-brands fa-facebook"></i></a></span>
+        <span style="display:inline-block;float: right;" class="pt-2 pb-2 me-2 fs-5"><a href="#"
+            style="text-decoration: none;color: white"><i class="fa-brands fa-instagram"></i></a></span>
+        <span style="display:inline-block;float: right;" class="pt-2 pb-2 me-2 fs-5 me-2"><a href="#"
+            style="text-decoration: none;color: white"><i class="fa-brands fa-linkedin"></i></a></span>
+      </div>
+    </div>
+    <!-- ------------------------navbar-------------------- -->
+    <div class="row">
+
+      <nav class="navbar navbar-expand-lg shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.jpg" class="img-fluid" height="60px" width="80px"
+              alt="" style="border-radius: 30px;display: inline-block;margin-left: 20px;"></a>
+          <button class="navbar-toggler menubar" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navigationlink" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+    </div>
+    <!----------------------------------- navbar end------------------------------- -->
+    <div class="row py-5 banner">
+      <div class="col-sm-7 bannertext">
+        <h1 class="ms-3 lifebetter display-3">Share your love to make someone’s life better</h1>
+        <span class="txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit.Natus praesentium eius cumque nostrum
+          provident. Temporibus placeat sint harum.</span>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/banner.png" class="img-fluid" alt="">
+      </div>
+    </div>
+    <!-- banner end------- -->
+
+
+
+
+    <!-- Cards start for features -->
+
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="col-sm-12 mt-4">
+          <div class="container">
+            <div class="row ">
+              <div
+                class="col-sm-3 featuresCard position-relative d-flex justify-content-center d-sm-flex justify-content-sm-center">
+                <div class="featureslogo">
+                  <i class="fa-solid fa-box h1 featureIcon"></i>
+                </div>
+                <div class="card h-100  border rounded-5" style="width: 15rem; background-color: #cae4f7;">
+                  <div class="card-body mt-5">
+                    <p class="card-text ">Explore</p>
+                    <h5 class="card-title ">Innovative Products</h5>
+                    <a href="#" class="text-decoration-none text-success">More Details...</a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-3 featuresCard position-relative d-flex justify-content-center d-sm-flex justify-content-sm-center">
+                <div class="featureslogo">
+                  <i class="fa-brands fa-servicestack h1 featureIcon"></i>
+                </div>
+                <div class="card h-100  border rounded-5" style="width: 15rem; background-color: #fdf0dd;">
+                  <div class="card-body mt-5">
+                    <p class="card-text ">Explore</p>
+                    <h5 class="card-title ">IT Services</h5>
+                    <a href="#" class="text-decoration-none text-success">More Details...</a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-3 featuresCard position-relative d-flex justify-content-center d-sm-flex justify-content-sm-center">
+                <div class="featureslogo">
+                  <i class="fa-solid fa-graduation-cap h1 featureIcon"></i>
+                </div>
+                <div class="card h-100 border rounded-5" style="width: 15rem; background-color: #d2f4f4;">
+                  <div class="card-body mt-5">
+                    <p class="card-text ">Explore</p>
+                    <h5 class="card-title ">Education Sector</h5>
+                    <a href="#" class="text-decoration-none text-success">More Details...</a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-3 featuresCard position-relative d-flex justify-content-center d-sm-flex justify-content-sm-center">
+                <div class="featureslogo">
+                  <i class="fa-solid fa-building-ngo h1 featureIcon"></i>
+                </div>
+                <div class="card h-100  border rounded-5" style="width: 15rem;background-color: #e0eafd;">
+                  <div class="card-body mt-5">
+                    <p class="card-text ">Explore</p>
+                    <h5 class="card-title ">NGO Donations</h5>
+                    <a href="#" class="text-decoration-none text-success">More Details...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Cards start for features -->
+
+
+    <!-- Details starts -->
+
+    <div class="container-fluid">
+      <div class="container">
+        <!-- intro -->
+        <div class="row mt-5">
+          <div class="col-sm-6"><img src="images/WhatsApp Image 2024-05-09 at 14.38.30_b9250bf9.jpg" height="400px" width="450px" alt="children"></div>
+          <div class="col-sm-6 mt-5">
+            <h6 style="color: grey;">Welcome to Our Site</h6>
+            <h3>A World wher Poverty will not Exists</h3>
+            <h4 style="color: red;">We are the largest crowdfunding</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt ut
+              labore.</p>
+            <p style="color: grey;">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod
+              tempor incididunt ut labore et simply free text dolore magna aliqua lonm andhn.</p>
+            <p style="color: grey;">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod
+              tempor incididunt ut labore et simply.</p>
+            <p><button type="submit" class="btn btn-danger">Learn More</button><i
+                class="fa-solid fa-play text-danger ms-4"></i> How We Work</p>
+          </div>
+        </div>
+        <!-- intro end -->
+        <!-- news letter -->
+        <!-- <div class="row">
+          <div class="col-sm-12 mt-5 mb-5">
+            <div class="letter">
+              <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand"></a>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- News letter ends -->
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+  </div>
+
+  <!-- Details end -->
+
+<!-- Rishabs part -->
+
+
+<div class="container">
+  <div class="row carddiv py-5">
+      <div class="col-sm-4 cardset">
+             <div class="card" style="width:20rem;">
+                <img src="images/causes-1.png" class="card-img-top" alt="...">
+                 <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-title"></p>
+                   <small class="card-text d-block"><h4>Collect fund for drinking water & healthy food</h4>
+                  <p style="color: rgb(99, 99, 99);">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Officiis odio laboriosam similique recusandae nam iusto iure.
+                       </p></small>
+                       <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <div class="causes_bottom_boxed">
+                                  <div class="causes_bottom_content">
+                                      <span>Date:</span>
+                                      <p>20 Dec, 2021</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <div class="causes_bottom_boxed causes_left_padding">
+                              
+                                  <div class="causes_bottom_content">
+                                      <span>By:</span>
+                                      <p>Admin:</p>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+          </div>
+
+            <div class="col-sm-4 cardset">
+                  <div class="card" style="width: 20rem;">
+                    <img src="images/causes-2.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <p class="card-title"></p>
+                    <small class="card-text d-block"><h4>Collect fund for drinking water & healthy food</h4>
+                      <p style="color: rgb(99, 99, 99);">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                          Officiis odio laboriosam similique recusandae nam iusto iure.
+                      </p></small>
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <div class="causes_bottom_boxed">
+                              <div class="causes_bottom_content">
+                                  <span>Date:</span>
+                                  <p>20 Dec, 2021</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <div class="causes_bottom_boxed causes_left_padding">
+                          
+                              <div class="causes_bottom_content">
+                                  <span>By:</span>
+                                  <p>Admin:</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+      </div>
+
+      <div class="col-sm-4 cardset">
+        <div class="card" style="width: 20rem;">
+       <img src="images/causes-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+         <h5 class="card-title"></h5>
+         <p class="card-title"></p>
+         <small class="card-text d-block"><h4>Collect fund for drinking water & healthy food</h4>
+          <p style="color: rgb(99, 99, 99);">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Officiis odio laboriosam similique recusandae nam iusto iure.
+          </p></small>
+               <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                      <div class="causes_bottom_boxed">
+                          <div class="causes_bottom_content">
+                              <span>Date:</span>
+                              <p>20 Dec, 2021</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                      <div class="causes_bottom_boxed causes_left_padding">
+                      
+                          <div class="causes_bottom_content">
+                              <span>By:</span>
+                              <p>Admin:</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+  </div>
+</div>
+</div>
+
+
+<!-- Rishabs part -->
+
+
+
+<!-- Company details starts-->
+
+ <!-- donation part start -->
+ <div>
+  <section id="donate_area">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-6 offset-lg-3">
+                  <div class="donate-text">
+                      <h3>We are here to Stop Proverty</h3>
+                      <h2>"We are Fundraising for the People who <br> are fighting against Proverty"</h2>
+                      <a href="#" class="btn">Donate Now</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </section>
+</div>
+<!-- donation part End-->
+<!-- partner part start -->
+<section id="partner_area">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12 ">
+             <div class="patner-logo m-auto ">
+              <a href="#">
+                  <img src="images/logo-1.png" class="mx-5 me-5" alt="">
+              </a>
+              <a href="#">
+                  <img src="images/logo-6.png" class="mx-5 me-5" alt="">
+              </a>
+              <a href="#">
+                  <img src="images/logo-2.png  " class="mx-5 me-5" alt="">
+              </a>
+              <a href="#">
+                  <img src="images/logo-1.png" class="mx-5 me-5" alt="">
+              </a>
+              <a href="#">
+                  <img src="images/logo-6.png" class="mx-5 me-5" alt="">
+              </a>
+              <a href="#">
+                  <img src="images/logo-2.png  " class="mx-5 me-5" alt="">
+              </a>
+              <a href="#">
+                  <img src="images/logo-1.png" class="mx-0 me-0" alt="">
+              </a>
+              
+              
+             </div>
+          
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- counter start -->
+<section id="counter">
+  <div class="container">
+    <div class="row">
+      <!-- Counter item -->
+      <div class="col counter">
+        <div class="d-flex justify-content-center align-items-center  rounded-3">
+          <img src="images/camp2.png" alt="course" width="80px" style="border-radius: 40%;">
+          <div class="ms-3 h6 fw-normal mb-0 couter">
+            <div class="d-flex couter">
+              <h2 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="10"
+                data-purecounter-delay="200" data-purecounter-duration="0">2358</h2>
+            </div>
+            <p class="mb-0">Total Campaign</p>
+          </div>
+        </div>
+      </div>
+      <!-- Counter item -->
+      <div class="col">
+        <div class="d-flex justify-content-center align-items-center  rounded-3">
+          <img src="images/hand.png" alt="collges" width="80px" style="border-radius: 40%; ">
+          <div class="ms-3 h6 fw-normal mb-0 couter">
+            <div class="d-flex">
+              <h2 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="10"
+                data-purecounter-delay="200" data-purecounter-duration="0">1000</h2>
+              <span class="mb-0 h2">+</span>
+            </div>
+            <p class="mb-0">Satisfied Donars</p>
+          </div>
+        </div>
+      </div><!-- Counter item -->
+      <div class="col">
+        <div class="d-flex justify-content-center align-items-center rounded-3">
+          <img src="images/mone.png" alt="streams" width="80px" style="border-radius: 40%;">
+          <div class="ms-3 h6 fw-normal mb-0 couter">
+            <div class="d-flex ">
+              <h2 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="10"
+                data-purecounter-delay="200" data-purecounter-duration="0">16</h2>
+              <span class="mb-0 h2">+</span>
+            </div>
+            <p class="mb-0">Fund raised</p>
+          </div>
+        </div>
+      </div><!-- Counter item -->
+      <div class="col">
+        <div class="d-flex justify-content-center align-items-center rounded-3 ">
+          <img src="images/camp.png" alt="job" width="80px" style="border-radius: 40%;">
+          <div class="ms-3 h6 fw-normal mb-0 couter">
+            <div class="d-flex ">
+              <h2 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="10"
+                data-purecounter-delay="200" data-purecounter-duration="0">100</h2>
+              <span class="mb-0 h2">+</span>
+            </div>
+            <p class="mb-0">Happy Volunteers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Company details ends -->
+
+
+<!-- Events start -->
+
+<div class="container">
+  <div class="row" style="margin-bottom: 30px;">
+      <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 col-12">
+          <div class="section_heading">
+              <h3><span class="color_big_heading">Upcoming events</span></h3>
+              <h2>Join our upcoming
+                  <span>events</span> for contribution
+              </h2>
+          </div>
+      </div>
+  </div>
+  <!-- <div class="row" style="background:linear-gradient(135deg,rgb(233, 193, 177), #daaa8e);;"> -->
+  <div class="row" >
+      <div class="col-lg-6 rounded ">
+          <div class="event_left_side_wrapper">
+              <div class="event_big_img">
+                  <a href="event-detail.html"><img src="event-big.png" alt="img"></a>
+              </div>
+              <div class="event_content_area big_content_padding">
+                  <div class="event_tag_area m-2">
+                      <a href="event.html">#FoodCamp</a>
+                  </div>
+                  <div class="event_heading_area ">
+                      <div class="event_heading m-2">
+                          <h3><a href="event-details.html">Healthy food and nutritions awreness campaign
+                                  december</a></h3>
+                      </div>
+                      <div class="event_date">
+                          <!-- <img src="" alt="icon"> -->
+                          <h6 class="m-3">20 <span>Dec</span></h6>
+                      </div>
+                  </div>
+                  <div class="event_para m-3">
+                      <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod
+                          tempor. Lorem ipsum dolor sit amet, consectetur notted duber
+                          adipisicing elit sed do eiusmod tempor.</p>
+                  </div>
+                  <div class="event_boxed_bottom_wrapper">
+                      <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <div class="event_bottom_boxed">
+                                  <div class="event_bottom_icon">
+                                      <img src="loc.webp" alt="icon">
+                                  </div>
+                                  <div class="event_bottom_content">
+                                      <h5>Location:</h5>
+                                      <p>Montgomery, Alabama.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                              <div class="event_bottom_boxed">
+                                  <div class="event_bottom_icon">
+                                      <img src="horario-png-6.png" alt="icon">
+                                  </div>
+                                  <div class="event_bottom_content">
+                                      <h5>Starts at:</h5>
+                                      <p>10 am</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="event_button btn btn-warning m-3 event_button_last">
+                      <a href="event-details.html" class="btn btn_md btn_theme">Join event</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-6">
+      <div class="event_left_side_wrapper mt-3">
+          <div class="event_content_area small_content_padding">
+              <div class="event_tag_area m-2">
+                  <a href="event.html">#FoodCamp</a>
+              </div>
+              <div class="event_heading_area m-2">
+                  <div class="event_heading">
+                      <h3><a href="event-details.html">Run for the senior citizens.</a></h3>
+                  </div>
+                  <div class="event_date">
+                      <!-- <img src="assets/img/icon/date.png" alt="icon"> -->
+                      <h6>20 <span>Dec</span></h6>
+                  </div>
+              </div>
+              <div class="event_para m-2">
+                  <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod
+                      tempor. Lorem ipsum dolor sitr.</p>
+              </div>
+              <div class="event_boxed_bottom_wrapper">
+                  <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <div class="event_bottom_boxed">
+                              <div class="event_bottom_icon">
+                                  <img src="loc.webp" alt="icon">
+                              </div>
+                              <div class="event_bottom_content">
+                                  <h5>Location:</h5>
+                                  <p>Montgomery, Alabama.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <div class="event_bottom_boxed">
+                              <div class="event_bottom_icon">
+                                  <img src="horario-png-6.png" alt="icon">
+                              </div>
+                              <div class="event_bottom_content">
+                                  <h5>Starts at:</h5>
+                                  <p>10 am</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="event_left_side_wrapper mt-3">
+          <div class="event_content_area small_content_padding">
+              <div class="event_tag_area m-2">
+                  <a href="event.html">#FoodCamp</a>
+              </div>
+              <div class="event_heading_area m-2">
+                  <div class="event_heading">
+                      <h3><a href="event-details.html">Run for the senior citizens.</a></h3>
+                  </div>
+                  <div class="event_date">
+                      <!-- <img src="assets/img/icon/date.png" alt="icon"> -->
+                      <h6>20 <span>Dec</span></h6>
+                  </div>
+              </div>
+              <div class="event_para m-2">
+                  <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod
+                      tempor. Lorem ipsum dolor sitr.</p>
+              </div>
+              <div class="event_boxed_bottom_wrapper">
+                  <div class="row" style="margin: 20px;">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <div class="event_bottom_boxed">
+                              <div class="event_bottom_icon">
+                                  <img src="loc.webp" alt="icon">
+                              </div>
+                              <div class="event_bottom_content">
+                                  <h5>Location:</h5>
+                                  <p>Montgomery, Alabama.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <div class="event_bottom_boxed">
+                              <div class="event_bottom_icon">
+                                  <img src="horario-png-6.png" alt="icon">
+                              </div>
+                              <div class="event_bottom_content">
+                                  <h5>Starts at:</h5>
+                                  <p>10 am</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="event_left_side_wrapper mt-3 ">
+          <div class="event_content_area small_content_padding">
+              <div class="event_tag_area m-2">
+                  <a href="event.html">#FoodCamp</a>
+              </div>
+              <div class="event_heading_area m-2">
+                  <div class="event_heading">
+                      <h3><a href="event-details.html">Run for the senior citizens.</a></h3>
+                  </div>
+                  <div class="event_date">
+                      <!-- <img src="assets/img/icon/date.png" alt="icon"> -->
+                      <h6>20 <span>Dec</span></h6>
+                  </div>
+              </div>
+              <div class="event_para m-2">
+                  <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod
+                      tempor. Lorem ipsum dolor sitr.</p>
+              </div>
+              <div class="event_boxed_bottom_wrapper mb-2">
+                  <div class="row ">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <div class="event_bottom_boxed">
+                              <div class="event_bottom_icon">
+                                  <img src="loc.webp" alt="icon">
+                              </div>
+                              <div class="event_bottom_content">
+                                  <h5>Location:</h5>
+                                  <p>Montgomery, Alabama.</p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                          <div class="event_bottom_boxed">
+                              <div class="event_bottom_icon">
+                                  <img src="horario-png-6.png" alt="icon">
+                              </div>
+                              <div class="event_bottom_content">
+                                  <h5>Starts at:</h5>
+                                  <p>10 am</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- event ends -->
+
+
+  <!-- Footer starts -->
+
+  <div class="container-fluid mt-5" style="background-color: #f4f7fc;">
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <div>
+            <img src="images/WhatsApp_Image_2024-05-08_at_10.43.37_9908c956-removebg-preview.png" width="100px" alt="">
+          </div>
+          <p><span class="fw-bold">Address:</span> Lucknow, Lucknow, India</p>
+          <p><span class="fw-bold">Phone:</span> +011 234-567-890</p>
+          <p><span class="fw-bold">Email:</span> info@example.com</p>
+        </div>
+        <div class="col-sm-4">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="mt-3">
+                <h4>Quick Links</h4>
+                <a href="#" class="text-decoration-none text-secondary d-inline-block my-1">About Us</a><br>
+                <a href="#" class="text-decoration-none text-secondary d-inline-block my-1">Services</a><br>
+                <a href="#" class="text-decoration-none text-secondary d-inline-block my-1">Portfolio</a><br>
+                <a href="#" class="text-decoration-none text-secondary d-inline-block my-1">Contact Us</a><br>
+                <a href="#" class="text-decoration-none text-secondary d-inline-block my-1">FAQ</a><br>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="mt-3">
+                <h4>Support</h4>
+                <a href="#" class="text-decoration-none text-secondary d-inline-block my-1">Help Center</a><br>
+                <a href="#" class="text-decoration-none text-secondary d-inline-block my-1">Terms of Service</a><br>
+                <a href="#" class="text-decoration-none text-secondary d-inline-block my-1">Privacy Policy</a><br>
+                <a href="#" class="text-decoration-none text-secondary d-inline-block my-1">Billing</a><br>
+                <a href="#" class="text-decoration-none text-secondary d-inline-block my-1">Report a Problem</a><br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="mt-3">
+            <h4>Latest Tweets</h4>
+            <p>#digitalmarketing
+              Lorem ipsum dolor sit amet consec elit sed eiusmod tempor incididunt ut labore etdolore magna aliqua. Sit
+              amet consec elit sed eiusmod tempor
+
+              twitter.com/i/#puredrinkingwater
+              December 13, 2021 04:20 PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-warning footer">
+      <div class="col-sm-6 text-end">
+        <p>Copyrights &copy; 2024 All rights reserved</p>
+      </div>
+      <div class="col-sm-6 text-start">
+        <p>Gyan Welfare Foundations</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer ends -->
+
+
+
+  </div>
+</body>
+
+</html>
